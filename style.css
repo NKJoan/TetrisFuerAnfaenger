@@ -1,0 +1,147 @@
+html, body {
+padding: 0;
+margin:0;
+}
+
+.grid-box {
+position:absolute;
+z-index:-1;
+background-color:black;
+display: grid;
+grid-template-columns: repeat(10, 100px);
+grid-template-rows: repeat(15, 100px);
+height:1000px;
+width:1000px;
+left:0px;
+top:50px;
+margin-left: 300px;
+margin-top: 50px;
+}
+
+.box{
+    border: 1px solid rgb(182, 182, 182);
+}
+
+.startItem{
+  /*grid-column-start: 5;
+  grid-row-start: 2;*/  
+  left:500px;
+  top:0px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.myButton {
+color: rgb(255, 255, 255);
+font-size: 15px;
+line-height: 15px; 
+padding: 7px; border-radius: 0px; 
+font-family: Georgia, serif;
+font-weight: normal;
+text-decoration: none;
+font-style: normal; 
+font-variant: normal;
+text-transform: none;
+background-image: linear-gradient(to right, rgb(127, 20, 199) 0%, rgb(143, 78, 185) 50%, rgb(104, 5, 170) 100%);
+box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+border: 2px solid rgb(115, 6, 158);
+display: inline-block;
+  }
+    .myButton:hover
+     {
+    background:  rgb(247, 0, 255);  
+}
+    .myButton:active 
+    {
+    background:  rgb(247, 0, 255);  
+}
+
+
+.myScore{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 15px; 
+    padding: 7px; border-radius: 0px; 
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal; 
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(127, 20, 199) 0%, rgb(143, 78, 185) 50%, rgb(104, 5, 170) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(115, 6, 158);
+    display: inline-block;
+      }
+        .myButton:hover
+         {
+        background:  rgb(247, 0, 255); 
+    }
+        .myButton:active 
+        {
+        background:  rgb(247, 0, 255); 
+    }
+    
+    
+    .pause{
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        line-height: 15px; 
+        padding: 7px; border-radius: 0px; 
+        font-family: Georgia, serif;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal; 
+        font-variant: normal;
+        text-transform: none;
+        background-image: linear-gradient(to right, rgb(127, 20, 199) 0%, rgb(143, 78, 185) 50%, rgb(104, 5, 170) 100%);
+        box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+        border: 2px solid rgb(115, 6, 158);
+        display: inline-block;
+          }
+            .myButton:hover
+             {
+            background: rgb(225, 0, 255); 
+        }
+            .myButton:active 
+            {
+            background: rgb(247, 0, 255); 
+        }
+        
+
+
+.Hintergrundbild {
+    background-image: url("https://images4.alphacoders.com/152/thumb-1920-152546.jpg");
+    height: 20em;
+    width: 30em;
+    background-size:cover;
+    }
+
+ .over {
+     background-image: url('https://66.media.tumblr.com/50cdadd74fe987c7dbe46bd2cc1b7788/tumblr_oh5ucegzLZ1urf4tmo1_400.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
